@@ -1,0 +1,80 @@
+{
+  "name": "Horaires de Prière - مواقيت الصلاة",
+  "short_name": "Salat Times",
+  "description": "Horaires de prière pour 26 villes mondiales avec calendrier Ramadan, Coran, Tasbih et Qibla",
+  "start_url": "/horaires-priere/",
+  "scope": "/horaires-priere/",
+  "display": "standalone",
+  "background_color": "#1e3c72",
+  "theme_color": "#ffd700",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Horaires du jour",
+      "short_name": "Horaires",
+      "description": "Voir les horaires de prière d'aujourd'hui",
+      "url": "/horaires-priere/",
+      "icons": [{ "src": "icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Calendrier Ramadan",
+      "short_name": "Ramadan",
+      "description": "Voir le calendrier du Ramadan",
+      "url": "/horaires-priere/#ramadan",
+      "icons": [{ "src": "icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["lifestyle", "utilities", "education"],
+  "lang": "fr",
+  "dir": "ltr"
+}
