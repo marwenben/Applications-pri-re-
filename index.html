@@ -25,6 +25,7 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles-premium.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
@@ -51,6 +52,14 @@
                 <button id="qibla-btn" class="tool-btn" title="Direction Qibla">
                     <span class="tool-icon">🧭</span>
                     <span data-fr="Qibla" data-ar="القبلة">Qibla</span>
+                </button>
+                <button id="hadiths-btn" class="tool-btn" title="Hadiths du Prophète ﷺ" onclick="showHadithsPage()">
+                    <span class="tool-icon">📚</span>
+                    <span data-fr="Hadiths" data-ar="الأحاديث">Hadiths</span>
+                </button>
+                <button id="settings-btn" class="tool-btn" title="Paramètres" onclick="showSettingsPage()">
+                    <span class="tool-icon">⚙️</span>
+                    <span data-fr="Paramètres" data-ar="الإعدادات">Paramètres</span>
                 </button>
                 <button id="install-pwa-btn" class="tool-btn pwa-install-btn" style="display: none;" title="Installer l'application">
                     <span class="tool-icon">📱</span>
@@ -606,5 +615,9 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="notifications-adhan.js"></script>
+    <script src="hadiths.js"></script>
+    <script src="quran-enhanced.js"></script>
+    <script src="settings.js"></script>
 </body>
 </html>
